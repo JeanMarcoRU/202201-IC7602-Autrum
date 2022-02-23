@@ -29,4 +29,5 @@
     $pip install winsound
 
     Si no funcioana intente con $pip3 en lugar de $pip
-    OJO PyAudio-0.2.11-cp39-cp39-win_amd64.whl es para window de 64-bits y python 3.9 
+    OJO PyAudio-0.2.11-cp39-cp39-win_amd64.whl es para window de 64-bits y python 3.9
+    Si tiene otra version de python o SO, busque su biblioteca aqui: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio 
