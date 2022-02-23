@@ -33,3 +33,20 @@ cuando parar, cuando continuar y cuando terminar).
 que los gráficos en dominio del tiempo y dominio de frecuencia, el usuario podrá detener, cancelar y
 resumir la reproducción en cualquier momento y realizar una exploración de los gráficos (zoom in /
 zoom out).
+
+Junto con la aplicación se debe entregar un documento Markdown de máximo 4 páginas dónde mediante el uso de su aplicación Autrum (gráficos en dominio del tiempo y dominio de frecuencia), lo estudiado en clase y las secciones del libro Tanenbaum, A. Computer Networks. 4ta edición: Bases teóricas para la comunicación de datos, Medios de Transmisión Guiados y Medios de Transmisión Inalámbrica, se dé respuesta a la pregunta “¿Porqué las voces del integrante 1, integrante 2 e integrante 3 son diferentes?”
+
+# Recomendaciones
+* Generar tonos en frecuencias específicas y reproducirlos en otro dispositivo para validar la funcionalidad del proyecto. Por ejemplo el uso de un tono de 400 Hz o 4000 Hz como los vimos en clase.
+* Al utilizar audios grabar o buscar WAV originales.
+* Realizar pruebas con sonidos de instrumentos musicales.
+
+# Entregables
+* Aplicación Autrum con su debida documentación.
+* Documento “¿Porqué las voces del integrante 1, integrante 2 e integrante 3 son diferentes?”
+
+# Evaluación
+**Funcionalidad / Requerimiento Porcentaje**
+**Autrum Analyzador** 50%
+**Autrum Reproductor** 30%
+**Documento “¿Porqué las voces del integrante 1,integrante 2 e integrante 3 son diferentes?”** 20%
