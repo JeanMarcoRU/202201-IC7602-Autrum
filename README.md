@@ -28,6 +28,7 @@ cuando parar, cuando continuar y cuando terminar).
 * Calcular su transformada de Fourier utilizando algún módulo de software disponible, por ejemplo scipy.fft.
 * Graficar en tiempo real los componentes de frecuencia obtenidos mediante la transformada de Fourier y poder ver tanto el gráfico en el tiempo así como en frecuencia al mismo tiempo.
 * Generar un archivo .atm (Autrum File) que contendrá el audio original, junto con los datos usados para generar los gráficos en dominio de frecuencia.
+
 **Reproductor:** Toma archivos con extensión .atm y puede reproducir el audio al mismo tiempo
 que los gráficos en dominio del tiempo y dominio de frecuencia, el usuario podrá detener, cancelar y
 resumir la reproducción en cualquier momento y realizar una exploración de los gráficos (zoom in /
