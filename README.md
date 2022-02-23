@@ -1,52 +1,32 @@
 #### Jean Marco Rojas U. - Alonso Obando - 
 
-# Objetivo General
-* Implementar un analizador de espectros simple para audio.
-# Objetivos Específicos
-* Profundizar los conceptos de señales y ondas mediante el uso de módulos de software que implementan la transformada de Fourier.
-* Graficar señales de audio en el dominio del tiempo y dominio de frecuencia.
-* Extraer armónicos específicos para generar tonos de audio.
-# Datos Generales
-* El valor del proyecto: 7%
-* La tarea debe ser implementada por grupos de 3 personas.
-* La fecha de entrega es 11/03/2022 antes de las 3:30 pm.
-* Cualquier indicio de copia será calificado con una nota de 0 y será procesado de acuerdo al reglamento. La copia incluye código que se puede encontrar en Internet y que sea utilizado parcial o totalmente sin el debido reconocimiento al autor.
-* La revisión es realizada por él profesor asignado al curso, él mismo se reserva el derecho de solicitar una revisión virtual con los miembros del grupo para evacuar cualquier duda sobre la implementación.
-* Se espera que todos y todas las integrantes del grupo entiendan la implementación suministrada.
-* Se deben seguir buenas prácticas de programación. Por ejemplo documentación interna y externa, estándares de código, diagramas de arquitectura, diagramas de flujo, pruebas unitarias son algunas de las buenas prácticas que se esperan de un estudiante de Ingeniería en Computación en sus cursos finales.
-* El lenguaje de implementación queda a criterio de cada grupo, se recomienda Python.
-* Toda documentación debe ser implementada en Markdown.
-* El email de entrega debe contener una copia del proyecto en formato tar.gz y un link al repositorio dónde se encuentra almacenado, debe seguir los lineamientos en el programa de curso.
-# Descripción
-Cada grupo deberá implementar una pequeña aplicación llamada Autrum, la misma tiene dos
-modos de operación:
-**Analizador:** toma señales de audio streaming (captura de micrófono) o batch (archivos WAV) y
-deberá:
-* Almacenar el audio en caso de ser streaming (el usuario debe poder indicar cuándo iniciar,
-cuando parar, cuando continuar y cuando terminar).
-* Graficar la señal en el dominio del tiempo.
-* Calcular su transformada de Fourier utilizando algún módulo de software disponible, por ejemplo scipy.fft.
-* Graficar en tiempo real los componentes de frecuencia obtenidos mediante la transformada de Fourier y poder ver tanto el gráfico en el tiempo así como en frecuencia al mismo tiempo.
-* Generar un archivo .atm (Autrum File) que contendrá el audio original, junto con los datos usados para generar los gráficos en dominio de frecuencia.
+# Preparación del entorno
+    Descargar miniconda desde el siguiente enlace: https://docs.conda.io/en/latest/miniconda.html
+    Realizar la instalación convencional
+    Ejecutar la consola de miniconda (lo pueden hacer escribiendo miniconda en el buscador principal de windows)
 
-**Reproductor:** Toma archivos con extensión .atm y puede reproducir el audio al mismo tiempo
-que los gráficos en dominio del tiempo y dominio de frecuencia, el usuario podrá detener, cancelar y
-resumir la reproducción en cualquier momento y realizar una exploración de los gráficos (zoom in /
-zoom out).
+## Crear un entorno con python 3.6 y activarlo
+    $ conda create -n MiEntorno anaconda python=3.6
+    $ conda activate MiEntorno
 
-Junto con la aplicación se debe entregar un documento Markdown de máximo 4 páginas dónde mediante el uso de su aplicación Autrum (gráficos en dominio del tiempo y dominio de frecuencia), lo estudiado en clase y las secciones del libro Tanenbaum, A. Computer Networks. 4ta edición: Bases teóricas para la comunicación de datos, Medios de Transmisión Guiados y Medios de Transmisión Inalámbrica, se dé respuesta a la pregunta “¿Porqué las voces del integrante 1, integrante 2 e integrante 3 son diferentes?”
+## Instalar kernel y jupyter notebook
+    $pip install jupyter
+    $conda install ipykernel
+    $python -m ipykernel install --user --name MiEntorno --display-name "MiEntorno"
+    
+## Correrlo
+    ingresar desde conda y ejecutar jupyter notebook
+    
+    $jupyter notebook
+    
+    Se abrirá jupyter notebook, entrar a la carpeta scripts y seleccionar el archivo.
 
-# Recomendaciones
-* Generar tonos en frecuencias específicas y reproducirlos en otro dispositivo para validar la funcionalidad del proyecto. Por ejemplo el uso de un tono de 400 Hz o 4000 Hz como los vimos en clase.
-* Al utilizar audios grabar o buscar WAV originales.
-* Realizar pruebas con sonidos de instrumentos musicales.
+## Instalar bibliotecas
+    $pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+    $pip install scipy
+    $pip install IPython
+    $pip install numpy
+    $pip install winsound
 
-# Entregables
-* Aplicación Autrum con su debida documentación.
-* Documento “¿Porqué las voces del integrante 1, integrante 2 e integrante 3 son diferentes?”
-
-# Evaluación
-**Funcionalidad / Requerimiento Porcentaje**
-**Autrum Analyzador** 50%
-**Autrum Reproductor** 30%
-**Documento “¿Porqué las voces del integrante 1,integrante 2 e integrante 3 son diferentes?”** 20%
+    Si no funcioana intente con $pip3 en lugar de $pip
+    OJO PyAudio-0.2.11-cp39-cp39-win_amd64.whl es para window de 64-bits y python 3.9 
