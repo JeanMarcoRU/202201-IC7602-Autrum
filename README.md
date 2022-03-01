@@ -1,4 +1,4 @@
-#### Jean Marco Rojas U. - Alonso Obando - 
+#### Jean Marco Rojas U. - Alonso Obando - Esteban Cruz López
 
 # Preparación del entorno
     Descargar miniconda desde el siguiente enlace: https://docs.conda.io/en/latest/miniconda.html
