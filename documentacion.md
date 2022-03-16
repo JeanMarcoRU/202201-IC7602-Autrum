@@ -1,4 +1,4 @@
-# ¿Por qué las voces de los integrantes son distintas?
+# **¿Por qué las voces de los integrantes son distintas?**
 
 ## Abstract
 
@@ -28,7 +28,10 @@ Además de las cualidades que varían típicamente de una persona a otra, es raz
 
 ## Desarrollo
 
-Se pone aquí el gráfico para cada integrante y se chorrea una hablada de cuales cualidades resaltan más en uno u otro integrante.
+
+El sonido es una perturbación que se produce al momento de la vibración de un objeto. Esto es determinado por una serie de ondas propagadas por un medio. Cuando hablamos realizamos el proceso de producir una resonancia mediante la expulsión de aire por vías respiratorias, específicamente por la tráquea  y la laringe. Este proceso genera una vibración de las cuerdas vocales permitiendo la generación de sonidos. Estas vibraciones salen en forma de onda, las cuales son afectadas por una serie de elementos que hacen que sean únicas, por ejemplo el movimiento de la lengua en coordinación con los músculos de la boca que controlan la apertura, permiten crear diferentes tipos de sonidos. 
+
+Debemos de tomar en cuenta que cada persona tiene un contexto de vida diferente, los seres humanos al vivir en comunidad son afectados por sus pares, por lo que en muchos casos tienden a imitar estilos y sonidos para encajar. A lo largo de la evolución hemos desarrollado lenguajes como la facultad del ser humano para expresarse y comunicarse con los demás a través del sonido articulado(- Asale, s. f.), lo que influye en nuestra forma de mover los músculos para producir sonidos. 
 
 ## Conclusión
 
@@ -37,3 +40,5 @@ Se concluye lo concluible
 ## Bibliografía
 
 Rodero, Emma (2002). El tono de la voz masculina y femenina en los informativos radiofónicos: un análisis comparativo
+
+Asale, R. (s. f.). _lenguaje | Diccionario de la lengua española_. «Diccionario de la lengua española» - Edición del Tricentenario. Recuperado 15 de marzo de 2022, de https://dle.rae.es/lenguaje
