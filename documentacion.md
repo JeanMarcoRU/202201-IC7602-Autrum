@@ -35,7 +35,8 @@ Debemos de tomar en cuenta que cada persona tiene un contexto de vida diferente,
 
 ## Conclusión
 
-Se concluye lo concluible
+Si bien es cierto podemos replicar el proceso de grabación utilizando los mismos instrumentos y entorno, pero hay grandes variaciones en el software y el hardware que se encargan de realizar la grabación que pueden afectar a la hora de realizar los experimentos que debe de tomarse en cuenta como margen de error a la hora de desarrollar este tipo de pruebas.
+
 
 ## Bibliografía
 
