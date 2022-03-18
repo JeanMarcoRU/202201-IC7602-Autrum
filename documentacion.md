@@ -28,15 +28,47 @@ Además de las cualidades que varían típicamente de una persona a otra, es raz
 
 ## Desarrollo
 
+El sonido es una perturbación que se produce al momento de la vibración de un objeto. Esto es determinado por una serie de ondas propagadas por un medio. Cuando hablamos realizamos el proceso de producir una resonancia mediante la expulsión de aire por vías respiratorias, específicamente por la tráquea y la laringe. Este proceso genera una vibración de las cuerdas vocales permitiendo la generación de sonidos. Estas vibraciones salen en forma de onda, las cuales son afectadas por una serie de elementos que hacen que sean únicas, por ejemplo el movimiento de la lengua en coordinación con los músculos de la boca que controlan la apertura, permiten crear diferentes tipos de sonidos.
 
-El sonido es una perturbación que se produce al momento de la vibración de un objeto. Esto es determinado por una serie de ondas propagadas por un medio. Cuando hablamos realizamos el proceso de producir una resonancia mediante la expulsión de aire por vías respiratorias, específicamente por la tráquea  y la laringe. Este proceso genera una vibración de las cuerdas vocales permitiendo la generación de sonidos. Estas vibraciones salen en forma de onda, las cuales son afectadas por una serie de elementos que hacen que sean únicas, por ejemplo el movimiento de la lengua en coordinación con los músculos de la boca que controlan la apertura, permiten crear diferentes tipos de sonidos. 
+Debemos de tomar en cuenta que cada persona tiene un contexto de vida diferente, los seres humanos al vivir en comunidad son afectados por sus pares, por lo que en muchos casos tienden a imitar estilos y sonidos para encajar. A lo largo de la evolución hemos desarrollado lenguajes como la facultad del ser humano para expresarse y comunicarse con los demás a través del sonido articulado(- Asale, s. f.), lo que influye en nuestra forma de mover los músculos para producir sonidos.
 
-Debemos de tomar en cuenta que cada persona tiene un contexto de vida diferente, los seres humanos al vivir en comunidad son afectados por sus pares, por lo que en muchos casos tienden a imitar estilos y sonidos para encajar. A lo largo de la evolución hemos desarrollado lenguajes como la facultad del ser humano para expresarse y comunicarse con los demás a través del sonido articulado(- Asale, s. f.), lo que influye en nuestra forma de mover los músculos para producir sonidos. 
+### Gráficos de ondas de sonido de cada participante
+
+A continuación se presentan los gráficos de ondas de sonido para cada participante del proyecto.
+
+#### Jean Marco Rojas
+
+![grafico jean marco](https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoGrafico.png)
+
+#### Alonso Obando
+
+![gráfico de alonso](https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico1.png)
+
+#### Esteban Cruz
+
+![gráfico esteban el rico](https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/espectro%20esteban.png)
+
+En estos gráficos se logra apreciar que cuando se pronuncian cada una de las 3 palabras elegidas ("hola mundo redes"), se presenta un pico en la cantidad y potencia registrada de las ondas de sonido, siendo posible identificar estos 3 picos en cada uno de los gráficos de los integrantes.
+
+### Gráficos de armónicos
+
+A continuación se presentan los gráficos de armónicos para cada participante del proyecto.
+
+#### Jean Marco Rojas
+
+![grafico jean marco](https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoFFT.png)
+
+#### Alonso Obando
+
+![gráfico de alonso](https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico2.png)
+
+#### Esteban Cruz
+
+![gráfico esteban el rico](https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/armónicos%20esteban.png)
 
 ## Conclusión
 
 Si bien es cierto podemos replicar el proceso de grabación utilizando los mismos instrumentos y entorno, pero hay grandes variaciones en el software y el hardware que se encargan de realizar la grabación que pueden afectar a la hora de realizar los experimentos que debe de tomarse en cuenta como margen de error a la hora de desarrollar este tipo de pruebas.
-
 
 ## Bibliografía
 
