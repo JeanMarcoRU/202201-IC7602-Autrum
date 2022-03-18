@@ -2,11 +2,12 @@
 
 ## Abstract
 
-En el presente documento se realiza un análisis de las voces de los integrantes y investiga las causas que provocan una diferencia en la voz y en las grabaciones de los distintos integrantes
+En el presente documento se brinda una investigación de los armónicos presentes en las voces de cada uno de los integrantes del presente proyecto. Se brindan conceptos clave y definiciones necesarias para realizar un análisis de los resultados de las grabaciones de los integrantes.
 
 ## Introducción
 
-Muchas son las variantes que pueden presentarse al momento de ejecutar sonido y estructurar palabras con la boca. Además, la voz humana presenta ciertas cualidades muy importantes a la hora de diferenciar la voz de una persona con la de otra.
+Muchas son las variantes que pueden presentarse al momento de ejecutar sonido y estructurar palabras con la boca. Además, la grabación de la voz es otro acto en el que puede variar los resultados.
+Las ondas de sonido se producen en el interior de nuestra garganta y se afectan por las múltiples cajas de resonancia dentro y fuera de nuestro cuerpo antes de llegar a cualquier posible receptor. Según la intensidad de estas ondas es como nosotros entendemos la potencia del sonido, pero según cómo varía la aparición de estas ondas según el tiempo, se genera, a través de fourier, el gráfico de amplitud con respecto al tiempo, del cual podemos extraer los armónicos presentes en las ondas sonoras originales.
 
 ## Marco Teórico
 
@@ -48,15 +49,15 @@ En estos gráficos se logra apreciar que cuando se pronuncian cada una de las 3 
 
 #### Jean Marco Rojas
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoGrafico.png" width=400 height=400>
+</br><img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoGrafico.png" width=400 height=400>
 
 #### Alonso Obando
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico1.png" width=400 height=400>
+</br><img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico1.png" width=400 height=400>
 
 #### Esteban Cruz
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/espectro%20esteban.png" width=400 height=400>
+</br><img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/espectro%20esteban.png" width=400 height=400>
 
 ### Gráficos de armónicos
 
@@ -65,12 +66,12 @@ A continuación se presentan los gráficos de armónicos para cada participante 
 #### Jean Marco Rojas
 
 Si se comparan los gráficos de armónicos de los participantes con los gráficos de armónicos de las notas puras, se logra apreciar que este integrante es el que posee la voz más armoniosa, con un patrón de picos bastante regular y decayendo en cantidad de picos a un buen ritmo, hasta llegar a las frecuencias de más de tres mil que dejan de presentarse picos globales. Además es destacable el pronunciado valle que se encuentra justo antes de los 2000 Hz, alcanzando armónicos casi nulos para después presentarse una nueva montaña.
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoFFT.png" width=400 height=400>
+</br><img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoFFT.png" width=400 height=400>
 
 #### Alonso Obando
 
 Los armónicos de este integrante son un poco menos regulares que el del anterior, llegando al pico máximo cerca de los 500 Hz para después decaer abruptamente cerca de los 650 Hz. Después de esto se logra identificar un nuevo aumento en la intensidad de los armónicos entre 1025 Hz y 1150 Hz, para de nuevo presentarse el valle de antes de los 2000 Hz y finalizar con la última montaña de armónicos cerca de los 2500 Hz.
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico2.png" width=400 height=400>
+</br><img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico2.png" width=400 height=400>
 
 #### Esteban Cruz
 
@@ -79,9 +80,11 @@ Este integrante presenta 2 puntos claves en su gráfico de armónicos los cuales
 Este gráfico de armónicos es bastante irregular por lo que no transmite armonía.
 
 De nueva cuenta se presenta el valle de antes de los 2000 Hz que da pie al último grupo de armónicos destacables presentes en la grabación.
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/armónicos%20esteban.png" width=400 height=400>
+</br><img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/armónicos%20esteban.png" width=400 height=400>
 
 ## Conclusión
+
+Según lo analizado en este documento se logra concluir que las voces de los integrantes presentan amplias diferencias debido tanto a factores externos (como el entorno de grabación y el hardware con el que se realiza la grabación), como internos (como las cualidades propias a cada individuo de su voz) pero aislar los factores que propician la variación de la muestra se escapa de nuestras manos.
 
 Se recomienda replicar el proceso de grabación utilizando los mismos instrumentos y entorno, debido a que existen grandes variaciones en el hardware y en el entorno de grabación que pueden afectar a la hora de realizar los experimentos que debe de tomarse en cuenta como margen de error a la hora de desarrollar este tipo de pruebas. También se recomienda realizar grabaciones distintas pero en la que los integrantes realicen un sonido más puro, ya que como se logra observar en los gráficos de ondas según el tiempo, las grabaciones fueron muy heterogéneas.
 
