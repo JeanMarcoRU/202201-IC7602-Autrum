@@ -38,15 +38,15 @@ A continuación se presentan los gráficos de ondas de sonido para cada particip
 
 #### Jean Marco Rojas
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoGrafico.png" width=250 height=250>
+<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoGrafico.png" width=400 height=400>
 
 #### Alonso Obando
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico1.png" width=250 height=250>
+<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico1.png" width=400 height=400>
 
 #### Esteban Cruz
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/espectro%20esteban.png" width=250 height=250>
+<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/espectro%20esteban.png" width=400 height=400>
 
 En estos gráficos se logra apreciar que cuando se pronuncian cada una de las 3 palabras elegidas ("hola mundo redes"), se presenta un pico en la cantidad y potencia registrada de las ondas de sonido, siendo posible identificar estos 3 picos en cada uno de los gráficos de los integrantes.
 
@@ -56,15 +56,15 @@ A continuación se presentan los gráficos de armónicos para cada participante 
 
 #### Jean Marco Rojas
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoFFT.png" width=250 height=250>
+<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_jeanmarco/jeanmarcoFFT.png" width=400 height=400>
 
 #### Alonso Obando
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico2.png" width=250 height=250>
+<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_alonso/grafico2.png" width=400 height=400>
 
 #### Esteban Cruz
 
-<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/armónicos%20esteban.png" width=250 height=250>
+<img src="https://github.com/JeanMarcoRU/202201-IC7602-Autrum/blob/main/scripts/data/output/rec_esteban/armónicos%20esteban.png" width=400 height=400>
 
 ## Conclusión
 
